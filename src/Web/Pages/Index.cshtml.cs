@@ -23,3 +23,5 @@ public class IndexModel : PageModel
         CatalogModel = await _catalogViewModelService.GetCatalogItems(pageId ?? 0, Constants.ITEMS_PER_PAGE, catalogModel.BrandFilterApplied, catalogModel.TypesFilterApplied);
     }
 }
+
+// this is my new update code 
